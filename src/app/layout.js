@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "MyCampusDeals",
+  title: "Nutripress",
   description: "Your campus marketplace for amazing deals",
 };
 
