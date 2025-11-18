@@ -17,7 +17,7 @@ export default function Signup() {
     setError('');
 
     try {
-      const res = await fetch('https://nutripress.vercel.app/api/auth/signup', {
+      const res = await fetch('https://nutripress.onrender.com/api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, phoneNumber, password, confirmPassword }),
