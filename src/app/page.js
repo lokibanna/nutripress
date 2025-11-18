@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex items-center justify-center py-20">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Welcome to MyCampusDeals
+            Welcome to Nutripress
           </h1>
           <p className="text-xl text-gray-600">
             Your campus marketplace for amazing deals

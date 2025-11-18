@@ -20,7 +20,7 @@ export default function Dashboard() {
       <Sidebar />
       <main className="ml-64 mt-16 p-8">
         <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        <p className="text-gray-600 mt-4">Welcome to MyCampusDeals Dashboard</p>
+        <p className="text-gray-600 mt-4">Welcome to Nutripress Dashboard</p>
       </main>
     </div>
   );
