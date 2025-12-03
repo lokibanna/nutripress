@@ -11,8 +11,17 @@ const paymentRoutes = require('./routes/payment');
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://nutripress.vercel.app'],
-  credentials: true
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'https://nutripress.vercel.app',
+    'https://nutripress-complete.vercel.app',
+    /\.vercel\.app$/,
+    /\.netlify\.app$/
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 app.use(express.json());
 
