@@ -2,9 +2,7 @@ import axios from 'axios'
 import toast from 'react-hot-toast'
 
 const api = axios.create({
-  baseURL: process.env.NODE_ENV === 'production' 
-    ? 'https://nutripress-1.onrender.com/api'
-    : 'http://localhost:8000/api'
+  baseURL: 'https://nutripress-1.onrender.com/api'
 })
 
 api.interceptors.request.use(config => {
